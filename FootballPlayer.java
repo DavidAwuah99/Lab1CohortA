@@ -75,6 +75,96 @@ public class FootballPlayer {
         } else if (age > 30) {
             System.out.println("Veteran");
         }
+        switch (jerseyNumber) {
+            case 1:
+                System.out.println("Goalkeeper");
+                break;
+            case 2:
+                System.out.println("Fullback");
+                break;
+            case 3:
+                System.out.println("Fullback");
+                break;
+            case 4:
+                System.out.println("Defender");
+                break;
+            case 5:
+                System.out.println("Defender");
+                break;
+            case 6:
+                System.out.println("Midfielder");
+                break;
+            case 7:
+                System.out.println("Winger");
+                break;
+            case 8:
+                System.out.println("Midfielder");
+                break;
+            case 9:
+                System.out.println("Striker");
+                break;
+            case 10:
+                System.out.println("Playmaker");
+                break;
+            case 11:
+                System.out.println("Winger");
+                break;
+            default:
+                System.out.println("Player position not found");
+                break;
+        }
+        switch (jerseyNumber) {
+            case 2:
+                System.out.println("Fullback");
+
+            case 6:
+                System.out.println("Midfielder");
+
+            case 7:
+                System.out.println("Winger");
+
+            default:
+                System.out.println("Player position not found");
+
+        }
+        switch (jerseyNumber) {
+            case 1:
+                System.out.println("Goalkeeper");
+                break;
+            case 2:
+            case 3:
+                System.out.println("Fullback");
+                break;
+            case 4:
+            case 5:
+                System.out.println("Defender");
+                break;
+            case 6:
+            case 8:
+                System.out.println("Midfielder");
+                break;
+            case 7:
+            case 11:
+                System.out.println("Winger");
+                break;
+            case 9:
+                System.out.println("Striker");
+                break;
+            case 10:
+                System.out.println("Playmaker");
+                break;
+
+        }
+
+        String category = "Prime Player";
+
+        if (category.equals("Prime Player")) {
+            if (weight < 80) {
+                System.out.println("Starter");
+            }
+        } else {
+            System.out.println("Bench");
+        }
 
 
 
