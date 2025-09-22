@@ -1,7 +1,10 @@
+// David Acheampong Awuah- Cohort A
+
 import java.util.Scanner;
 
 public class FootballPlayer {
     public static void main(String[] args){
+        // Task 1
         String name;
         int age;
         double height;
@@ -27,6 +30,8 @@ public class FootballPlayer {
         System.out.println("Jersey Number-" + jerseyNumber);
         System.out.println();
 
+        // Task 2
+
         double pound =  0.45359237;
         int meter = 100;
 
@@ -44,11 +49,17 @@ public class FootballPlayer {
         System.out.println("Current age:" + age);
         System.out.println("Current jersey number:" + jerseyNumber);
         System.out.println();
+
+        // Task 3
+
         age++;
         jerseyNumber--;
 
         System.out.println("New age:" + age);
         System.out.println("New jersey number:" + jerseyNumber);
+
+
+        // Task 4
 
         boolean eligible = (age >= 18 && age <=35 && weight < 90);
         if (eligible){
@@ -68,6 +79,9 @@ public class FootballPlayer {
             System.out.println("Eligible");
         }
 
+
+        // Task 5
+
         if (age < 20) {
             System.out.println("Rising star");
         } else if (age >20 && age < 30) {
@@ -75,6 +89,9 @@ public class FootballPlayer {
         } else if (age > 30) {
             System.out.println("Veteran");
         }
+
+        // Task 6
+
         switch (jerseyNumber) {
             case 1:
                 System.out.println("Goalkeeper");
@@ -113,6 +130,9 @@ public class FootballPlayer {
                 System.out.println("Player position not found");
                 break;
         }
+
+        // Task 7a
+
         switch (jerseyNumber) {
             case 2:
                 System.out.println("Fullback");
@@ -127,6 +147,9 @@ public class FootballPlayer {
                 System.out.println("Player position not found");
 
         }
+
+        // Task 7b
+
         switch (jerseyNumber) {
             case 1:
                 System.out.println("Goalkeeper");
@@ -155,6 +178,8 @@ public class FootballPlayer {
                 break;
 
         }
+
+        // Task 8
 
         String category = "Prime Player";
 
@@ -166,6 +191,12 @@ public class FootballPlayer {
             System.out.println("Bench");
         }
 
+        // Task 9
+
+        String decision = (age >= 18 && age <= 35 && weight < 90)
+                ? "Play"
+                : "Rest";
+        System.out.println(decision);
 
 
     }
